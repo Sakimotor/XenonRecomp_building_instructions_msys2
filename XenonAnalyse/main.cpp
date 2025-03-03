@@ -267,9 +267,11 @@ int main(int argc, char** argv)
         PPC_INST_LBZX,
         PPC_INST_RLWINM,
         PPC_INST_LIS,
+        PPC_INST_ORI,
         PPC_INST_ADDI,
         PPC_INST_ADD,
         PPC_INST_MTCTR,
+        PPC_INST_BCCTR,
     };
 
     uint32_t offsetSwitch[] =
